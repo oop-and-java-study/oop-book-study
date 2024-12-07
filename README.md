@@ -17,3 +17,16 @@
 ## 4.구성원
   - [hyew-kim](https://github.com/hyew-kim)
   - [kodagrammer](https://github.com/kodagrammer)
+
+## 5. 스터디 로그
+|회차|주제|위키|진행자|비고|
+|---|---|---|---|---|
+|0회차|Part1>Chapter01-들어가기|-|hyew-kim|-|
+|1회차|Part1>Chapter02-객체 지향|-|kodagrammer|-|
+|2회차|Part1>Chapter03-다형성과 추상화|-|-|-|
+|3회차|Part1>Chapter04-재사용:상속보단 조립|-|-|-|
+|4회차|Part2>Chapter05-설계원칙:SOLID(1)|-|-|-|
+|5회차|Part2>Chapter05-설계원칙:SOLID(2)|-|-|-|
+|6회차|Part2>Chapter06-DI와 서비스 로케이터|-|-|-|
+|7회차|Part3>Chapter07-주요 디자인 패턴(1)|-|-|-|
+|8회차|Part3>Chapter07-주요 디자인 패턴(2)|-|-|-|
