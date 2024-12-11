@@ -17,6 +17,7 @@
 ## 4.구성원
   - [hyew-kim](https://github.com/hyew-kim)
   - [kodagrammer](https://github.com/kodagrammer)
+  - [lalanaa](https://github.com/lallanaa)
 
 ## 5. 스터디 로그
 |회차|주제|위키|진행자|비고|
