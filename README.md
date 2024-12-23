@@ -17,13 +17,14 @@
 ## 4.구성원
   - [hyew-kim](https://github.com/hyew-kim)
   - [kodagrammer](https://github.com/kodagrammer)
+  - [lalanaa](https://github.com/lallanaa)
 
 ## 5. 스터디 로그
 |회차|주제|위키|진행자|비고|
 |---|---|---|---|---|
 |0회차|Part1>객체지향|-|hyew-kim|-|
 |1회차|Part2>설계원칙/DI와 서비스 로케이터|-|kodagrammer|-|
-|2회차|Part3>디자인패턴개요, 전략/템플릿메서드/상태/데코레이터 패턴|-|-|-|
-|3회차|Part3>프록시/어댑터/옵저버/미디에이터 패턴|-|-|-|
-|4회차|Part3>파사드/추상팩토리/컴포지트/널 패턴|-|-|-|
+|2회차|Part3>디자인패턴개요, 전략/템플릿메서드/상태/데코레이터 패턴|-|lalanaa|-|
+|3회차|Part3>프록시/어댑터/옵저버/미디에이터 패턴|-|hyew-kim|-|
+|4회차|Part3>파사드/추상팩토리/컴포지트/널 패턴|-|kodagrammer|-|
 |5회차|북 스터디회고|-|-|-|
