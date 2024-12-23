@@ -15,7 +15,7 @@
 + 상위 클래스 상속
   + 상위 클래스는 기능 구현, 상속 클래스에서는 상위 클래스의 기능을 수정하거나 새로운 기능을 구현 가능
 
-```
+```java
 public interface Person {
     boolean isExpired(); // 기능만 정의
 }
@@ -29,7 +29,7 @@ public class Seller implements Person {
     }
 }
 ```
-```
+```java
 // 상위 클래스
 public class Agent { 
     private long agentId; 
@@ -72,7 +72,7 @@ public class Seller extend Agent implements Person {
 }
 ```
 이러한 상속을 통해 객체는 여러개의 타입을 갖고, 각 타입에 정의된 기능을 사용할 수 있게 된다.
-```
+```java
 Agent agent = new Agent();
 agent.addProduct(1);    //Agent에 구현된 메서드 실행
 
@@ -98,7 +98,7 @@ person.isExpired();     // Seller에 구현된 메서드 실행
 
 컴파일러는 추상클래스가 아니라 구현클래스를 직접 생성하여 사용하여도 오류로 보지 않지만, 직접 구현클래스를 사용하게 되면 또 다시 변경이 어려운 코드가 된다.
 
-```
+```java
 public class FileDataReader implements LogReader {
     public byte[] read() {...}   
 }
@@ -125,7 +125,7 @@ public class FlowController {
 + `FlowController`에서 로그데이터 유형에 따른 `LogReader` 객체 생성의 책임 분리
 + 변경되는 부분 추상화하여 `if-else`로만 처리되는 경직성 해소
 
-```
+```java
 // 로그 데이터 유형 enum으로 정의
 Enum LogType { File, Socket, Http, DB }
 
@@ -139,7 +139,7 @@ switch(logType){
 }
 ```
 
-```
+```java
 // LogReader 객체 생성 책임 분리
 public class LogReaderFactory {
     // 싱글톤패턴
