@@ -14,4 +14,5 @@
 
 > 객체의 생성, 기능의 확장, 기능의 변경, 구조 등과 관련된 설계의 패턴
 
-- [전략패턴](https://github.com/hyew-kim/oop-book-study/blob/main/part3/chapter07/1/startegy.md) / [템플릿 메서드 패턴](https://github.com/hyew-kim/oop-book-study/blob/main/part3/chapter07/1/template-method.md) / [상태 패턴](https://github.com/hyew-kim/oop-book-study/blob/main/part3/chapter07/1/state.md) / [데코레이터 패턴](https://github.com/hyew-kim/oop-book-study/blob/main/part3/chapter07/1/decorator.md)
+- [전략패턴](/part3/chapter07/1/startegy.md) / [템플릿 메서드 패턴](/part3/chapter07/1/template-method.md) / [상태 패턴](/part3/chapter07/1/state.md) / [데코레이터 패턴](/part3/chapter07/1/decorator.md)
+- 프록시 패턴 / 어뎁터패턴 / 옵저버 패턴 / 미디에이터 패턴
