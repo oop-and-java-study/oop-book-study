@@ -63,7 +63,7 @@
 
 + 기존 코드
   
-    ```
+    ```java
     public class FileDataReader {
         void setFile(File file) {
             // 기능
@@ -82,7 +82,7 @@
 
 + FileDataReader 변경 발생 시
   
-    ```
+    ```java
     public class FileDataReader {
         // File 객체 대신 파일 경로를 문자열로 받도록 수정
         void setFile(String path) {
@@ -114,7 +114,7 @@ C클래스의 변경으로 B,A까지 변경되고, A 변경사항으로 인해 �
 + 캡슐화가 안된 케이스
     
     만료 정책에 변경이 있을 때마다, 만료 프로세스가 구현된 모든 클래스가 수정되어야 함
-    ```
+    ```java
     @Getter
     public class Member {
         private Date expireDate;
@@ -143,7 +143,7 @@ C클래스의 변경으로 B,A까지 변경되고, A 변경사항으로 인해 �
 + 캡슐화가 잘된 케이스
   
   Member 클래스 한 곳만 수정해도 모두 적용됨
-  ```
+  ```java
     public class Member {
         private Date expireDate;
         private boolean male;
@@ -190,7 +190,7 @@ C클래스의 변경으로 B,A까지 변경되고, A 변경사항으로 인해 �
 두 개의 규칙을 지켜라!
 + Tell, Don't Ask : 데이터는 모르겠고, 그냥 기능 실행해줘!
 + 데미테르의 법칙(Law of Demeter) : 메서드의 메서드를 호출하지 마라!
-```
+```java
 member.isExpired(); // 만료일을 묻지 않고 만료여부를 알려달라는 기능 실행 요청, Tell Don't Ask!
 
 member.getExpiredDate().getDate(); // 데미테르 법칙 위반
